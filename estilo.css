@@ -1,0 +1,113 @@
+/* Paleta de colores basada en "El Hombre que Calculaba" */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7E7CE; /* Color Arena */
+    color: #1A2A3A; /* Azul Noche Oriental */
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #1A2A3A;
+    color: #D4AF37; /* Dorado */
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 4px solid #C05A46; /* Terracota */
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+.header p {
+    margin-top: 8px;
+    color: #E8D1A7;
+    font-style: italic;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 2px solid #D4AF37;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1A2A3A;
+    border-bottom: 2px solid #C05A46;
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+.descripcion {
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1A2A3A;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #D4AF37;
+    color: #1A2A3A;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #B89528;
+    color: #FFFFFF;
+}
+
+.resultado {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #1A2A3A;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-left: 5px solid #D4AF37;
+    font-family: monospace;
+    white-space: pre-line;
+    display: none; /* Oculto por defecto hasta hacer clic */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #1A2A3A;
+    font-size: 0.9em;
+}
